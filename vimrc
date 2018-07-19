@@ -15,7 +15,7 @@ set guioptions=r
 syntax on
 
 " Color scheme
-colorscheme desert
+colorscheme molokai
 
 " Color invisible characters
 highlight NonText ctermfg=DarkGrey
