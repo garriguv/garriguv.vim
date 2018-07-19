@@ -1,0 +1,33 @@
+" Remappings
+nmap <c-j> o<Esc>
+nmap <c-k> O<Esc>
+
+" Fast window movement
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-h> <C-w>h
+nnoremap <C-l> <C-w>l
+
+" Enable plugins
+set surround
+
+" Search
+set ignorecase
+set incsearch
+
+" Line numbers
+set number
+set relativenumber
+
+" Show mode
+set showmode
+
+" Silence bell
+set visualbell
+
+" Quickly pressing fd exits insert mode
+imap fd <Esc>
+
+" IntelliJ action
+map <Space>r :action Run<CR>
+map <Space>d :action Debug<CR>
