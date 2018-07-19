@@ -157,6 +157,10 @@ imap <c-x><c-f> <plug>(fzf-complete-path)
 imap <c-x><c-j> <plug>(fzf-complete-file-ag)
 imap <c-x><c-l> <plug>(fzf-complete-line)
 
+" vim-airline
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme = 'molokai'
+
 """"""""""""""""""""""""""""""""""""""""
 " Filetype settings
 """"""""""""""""""""""""""""""""""""""""
