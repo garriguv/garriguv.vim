@@ -25,3 +25,10 @@ or
     git submodule deinit pack/garriguv/start/<package>
     git rm pack/garriguv/start/<package>
     rm -rf .git/modules/pack/garriguv/start/<package>
+
+### Package documentation
+
+After installing or updating a package, make sure to re-generate the
+documentation using:
+
+    :helptags ALL
