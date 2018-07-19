@@ -1,0 +1,72 @@
+[submodule "pack/garriguv/start/vim-rhubarb"]
+	path = pack/garriguv/start/vim-rhubarb
+	url = git@github.com:tpope/vim-rhubarb.git
+[submodule "pack/garriguv/start/vim-dispatch"]
+	path = pack/garriguv/start/vim-dispatch
+	url = git@github.com:tpope/vim-dispatch.git
+[submodule "pack/garriguv/start/vim-fugitive"]
+	path = pack/garriguv/start/vim-fugitive
+	url = git@github.com:tpope/vim-fugitive.git
+[submodule "pack/garriguv/start/vim-git"]
+	path = pack/garriguv/start/vim-git
+	url = git@github.com:tpope/vim-git.git
+[submodule "pack/garriguv/start/vim-sensible"]
+	path = pack/garriguv/start/vim-sensible
+	url = git@github.com:tpope/vim-sensible.git
+[submodule "pack/garriguv/start/vim-unimpaired"]
+	path = pack/garriguv/start/vim-unimpaired
+	url = git@github.com:tpope/vim-unimpaired.git
+[submodule "pack/garriguv/start/vim-eunuch"]
+	path = pack/garriguv/start/vim-eunuch
+	url = git@github.com:tpope/vim-eunuch.git
+[submodule "pack/garriguv/start/vim-commentary"]
+	path = pack/garriguv/start/vim-commentary
+	url = git@github.com:tpope/vim-commentary.git
+[submodule "pack/garriguv/start/vim-ragtag"]
+	path = pack/garriguv/start/vim-ragtag
+	url = git@github.com:tpope/vim-ragtag.git
+[submodule "pack/garriguv/start/vim-repeat"]
+	path = pack/garriguv/start/vim-repeat
+	url = git@github.com:tpope/vim-repeat.git
+[submodule "pack/garriguv/start/vim-surround"]
+	path = pack/garriguv/start/vim-surround
+	url = git@github.com:tpope/vim-surround.git
+[submodule "pack/garriguv/start/vim-jdaddy"]
+	path = pack/garriguv/start/vim-jdaddy
+	url = git@github.com:tpope/vim-jdaddy.git
+[submodule "pack/garriguv/start/vim-markdown"]
+	path = pack/garriguv/start/vim-markdown
+	url = git@github.com:tpope/vim-markdown.git
+[submodule "pack/garriguv/start/tabular"]
+	path = pack/garriguv/start/tabular
+	url = git@github.com:godlygeek/tabular.git
+[submodule "pack/garriguv/start/vim-ripgrep"]
+	path = pack/garriguv/start/vim-ripgrep
+	url = git@github.com:jremmen/vim-ripgrep.git
+[submodule "pack/garriguv/start/vim-tmux-navigator"]
+	path = pack/garriguv/start/vim-tmux-navigator
+	url = git@github.com:christoomey/vim-tmux-navigator.git
+[submodule "pack/garriguv/start/vim-go"]
+	path = pack/garriguv/start/vim-go
+	url = git@github.com:fatih/vim-go.git
+[submodule "pack/garriguv/start/wmgraphviz.vim"]
+	path = pack/garriguv/start/wmgraphviz.vim
+	url = git@github.com:wannesm/wmgraphviz.vim.git
+[submodule "pack/garriguv/start/vim-protobuf"]
+	path = pack/garriguv/start/vim-protobuf
+	url = git@github.com:uarun/vim-protobuf.git
+[submodule "pack/garriguv/start/vim-toml"]
+	path = pack/garriguv/start/vim-toml
+	url = git@github.com:cespare/vim-toml.git
+[submodule "pack/garriguv/start/vim-plist"]
+	path = pack/garriguv/start/vim-plist
+	url = git@github.com:darfink/vim-plist.git
+[submodule "pack/garriguv/start/swift.vim"]
+	path = pack/garriguv/start/swift.vim
+	url = git@github.com:keith/swift.vim.git
+[submodule "pack/garriguv/start/fzf.vim"]
+	path = pack/garriguv/start/fzf.vim
+	url = git@github.com:junegunn/fzf.vim.git
+[submodule "pack/garriguv/start/fzf"]
+	path = pack/garriguv/start/fzf
+	url = git@github.com:junegunn/fzf.git
