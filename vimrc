@@ -145,6 +145,7 @@ map <Leader>a= :Tabularize /=<CR>
 
 " fzf
 nnoremap <C-P> :FZF<CR>
+nnoremap <C-B> :Buffers<CR>
 
 " Mapping selecting mappings
 nmap <leader><tab> <plug>(fzf-maps-n)
