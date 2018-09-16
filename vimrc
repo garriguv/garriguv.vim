@@ -162,6 +162,10 @@ imap <c-x><c-l> <plug>(fzf-complete-line)
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme = 'molokai'
 
+" ale
+nmap <silent> <c-k> <plug>(ale_previous_wrap)
+nmap <silent> <c-j> <plug>(ale_next_wrap)
+
 """"""""""""""""""""""""""""""""""""""""
 " Filetype settings
 """"""""""""""""""""""""""""""""""""""""
