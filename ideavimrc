@@ -25,8 +25,8 @@ set showmode
 " Silence bell
 set visualbell
 
-" Quickly pressing fd exits insert mode
-imap fd <Esc>
+" Quickly pressing jj exits insert mode
+imap jj <Esc>
 
 " IntelliJ action
 map <Space>r :action Run<CR>

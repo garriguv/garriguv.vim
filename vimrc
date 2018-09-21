@@ -80,8 +80,8 @@ set autowrite
 " Leader is space
 let mapleader="\<Space>"
 
-" Quickly pressing fd exits insert mode
-imap fd <Esc>
+" Quickly pressing jj exits insert mode
+imap jj <Esc>
 
 " Navigate wrapped lines quickly
 nmap j gj
@@ -145,7 +145,7 @@ map <Leader>a= :Tabularize /=<CR>
 
 " fzf
 nnoremap <C-P> :FZF<CR>
-nnoremap <C-B> :Buffers<CR>
+" nnoremap <C-B> :Buffers<CR>
 
 " Mapping selecting mappings
 nmap <leader><tab> <plug>(fzf-maps-n)
