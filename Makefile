@@ -7,4 +7,4 @@ install:
 
 .PHONY: update
 update:
-	git submodule update --remote --merge
+	git submodule update --remote
