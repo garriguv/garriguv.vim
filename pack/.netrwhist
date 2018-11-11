@@ -1,8 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/Users/garriguv/garriguv.dotfiles'
 let g:netrw_dirhist_2='/Users/garriguv/garriguv.dotfiles/zsh'
 let g:netrw_dirhist_3='/Users/garriguv/garriguv.dotfiles'
 let g:netrw_dirhist_4='/Users/garriguv'
 let g:netrw_dirhist_5='/Users/garriguv/garriguv.vim'
 let g:netrw_dirhist_6='/Users/garriguv'
+let g:netrw_dirhist_7='/Users/garriguv/garriguv.vim'
