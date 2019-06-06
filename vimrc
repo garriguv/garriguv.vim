@@ -140,23 +140,9 @@ au BufRead,BufNewFile *.md setlocal textwidth=80
 " Dispatch map
 nnoremap <F9> :Dispatch<CR>
 
-" Tabularize
-map <Leader>a= :Tabularize /=<CR>
-
 " fzf
 nnoremap <C-P> :FZF<CR>
 " nnoremap <C-B> :Buffers<CR>
-
-" Mapping selecting mappings
-nmap <leader><tab> <plug>(fzf-maps-n)
-xmap <leader><tab> <plug>(fzf-maps-x)
-omap <leader><tab> <plug>(fzf-maps-o)
-
-" Insert mode completion
-imap <c-x><c-k> <plug>(fzf-complete-word)
-imap <c-x><c-f> <plug>(fzf-complete-path)
-imap <c-x><c-j> <plug>(fzf-complete-file-ag)
-imap <c-x><c-l> <plug>(fzf-complete-line)
 
 " vim-airline
 let g:airline#extensions#tabline#enabled = 1
