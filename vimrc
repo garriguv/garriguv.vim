@@ -94,7 +94,7 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
 " Remove trailing whitespaces
-map <Leader>w :%s/\s\+$//e<CR>
+nnoremap <Leader>w :%s/\s\+$//e<CR>
 
 " Live it.
 noremap <Up> :resize +2<CR>
@@ -103,18 +103,18 @@ noremap <Left> :vertical resize -2<CR>
 noremap <Right> :vertical resize +2<CR>
 
 " Quick vimrc edit and source
-nmap <Leader>vi :tabnew $MYVIMRC<CR>
-nmap <Leader>so :source $MYVIMRC<CR>
+nnoremap <Leader>vi :tabnew $MYVIMRC<CR>
+nnoremap <Leader>so :source $MYVIMRC<CR>
 
 " Quickly quit help files
 autocmd Filetype help nnoremap <buffer> q :q<CR>
 autocmd Filetype godoc nnoremap <buffer> q :q<CR>
 
 " Edit files in same directory as the current file
-map <Leader>ew :e <C-R>=escape(expand("%:p:h"), ' ') . '/'<CR>
-map <Leader>es :sp <C-R>=escape(expand("%:p:h"), ' ') . '/'<CR>
-map <Leader>ev :vsp <C-R>=escape(expand("%:p:h"), ' ') . '/'<CR>
-map <Leader>et :tabe <C-R>=escape(expand("%:p:h"), ' ') . '/'<CR>
+nnoremap <Leader>ew :e <C-R>=escape(expand("%:p:h"), ' ') . '/'<CR>
+nnoremap <Leader>es :sp <C-R>=escape(expand("%:p:h"), ' ') . '/'<CR>
+nnoremap <Leader>ev :vsp <C-R>=escape(expand("%:p:h"), ' ') . '/'<CR>
+nnoremap <Leader>et :tabe <C-R>=escape(expand("%:p:h"), ' ') . '/'<CR>
 
 """"""""""""""""""""""""""""""""""""""""
 " Plugin configuration
