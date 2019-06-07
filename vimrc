@@ -116,6 +116,9 @@ nnoremap <Leader>es :sp <C-R>=escape(expand("%:p:h"), ' ') . '/'<CR>
 nnoremap <Leader>ev :vsp <C-R>=escape(expand("%:p:h"), ' ') . '/'<CR>
 nnoremap <Leader>et :tabe <C-R>=escape(expand("%:p:h"), ' ') . '/'<CR>
 
+" Repeat last macro instead of going to ex mode
+nnoremap Q @@
+
 """"""""""""""""""""""""""""""""""""""""
 " Plugin configuration
 """"""""""""""""""""""""""""""""""""""""
