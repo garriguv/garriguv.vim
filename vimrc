@@ -3,7 +3,7 @@ set splitbelow
 set splitright
 
 " Set font
-set guifont=Source\ Code\ Pro:h14
+set guifont=Go\ Mono:h14
 
 " Don't blink cursor
 set guicursor+=n-v-c:blinkon0
